@@ -25,10 +25,14 @@
 		241D28861B999294008EE6F9 /* UIButton+PPiAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D287B1B999294008EE6F9 /* UIButton+PPiAwesome.m */; };
 		241D28871B999294008EE6F9 /* PPiFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D287D1B999294008EE6F9 /* PPiFlatSegmentedControl.m */; };
 		241D288D1B9997DA008EE6F9 /* AddEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D288C1B9997DA008EE6F9 /* AddEvaluationViewController.m */; };
-		241D28901B999B4A008EE6F9 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D288F1B999B4A008EE6F9 /* IndexViewController.m */; };
-		241D28931B999B73008EE6F9 /* BasicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D28921B999B73008EE6F9 /* BasicInfoViewController.m */; };
-		241D28961B999BA9008EE6F9 /* EvaluatInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D28951B999BA9008EE6F9 /* EvaluatInfoViewController.m */; };
 		241D28991B999BDE008EE6F9 /* SupplementaryModleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D28981B999BDE008EE6F9 /* SupplementaryModleViewController.m */; };
+		241D28A51B9A7B90008EE6F9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D28A41B9A7B90008EE6F9 /* UIViewExt.m */; };
+		249923631B9C7346000D762A /* IndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249923621B9C7346000D762A /* IndexView.m */; };
+		249923661B9C7483000D762A /* IDInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249923651B9C7483000D762A /* IDInfoViewController.m */; };
+		249923691B9C7844000D762A /* CustomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249923681B9C7844000D762A /* CustomTitleView.m */; };
+		249923731B9C8344000D762A /* InfoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249923721B9C8344000D762A /* InfoTableView.m */; };
+		2499237E1B9DC812000D762A /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2499237D1B9DC812000D762A /* PersonalViewController.m */; };
+		249923821B9DC8F8000D762A /* PersonalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249923811B9DC8F8000D762A /* PersonalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,14 +78,22 @@
 		241D28891B999454008EE6F9 /* Retired-Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Retired-Define.h"; sourceTree = "<group>"; };
 		241D288B1B9997DA008EE6F9 /* AddEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEvaluationViewController.h; sourceTree = "<group>"; };
 		241D288C1B9997DA008EE6F9 /* AddEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEvaluationViewController.m; sourceTree = "<group>"; };
-		241D288E1B999B4A008EE6F9 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
-		241D288F1B999B4A008EE6F9 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
-		241D28911B999B73008EE6F9 /* BasicInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfoViewController.h; sourceTree = "<group>"; };
-		241D28921B999B73008EE6F9 /* BasicInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInfoViewController.m; sourceTree = "<group>"; };
-		241D28941B999BA9008EE6F9 /* EvaluatInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluatInfoViewController.h; sourceTree = "<group>"; };
-		241D28951B999BA9008EE6F9 /* EvaluatInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluatInfoViewController.m; sourceTree = "<group>"; };
 		241D28971B999BDE008EE6F9 /* SupplementaryModleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupplementaryModleViewController.h; sourceTree = "<group>"; };
 		241D28981B999BDE008EE6F9 /* SupplementaryModleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplementaryModleViewController.m; sourceTree = "<group>"; };
+		241D28A31B9A7B90008EE6F9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		241D28A41B9A7B90008EE6F9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		249923611B9C7346000D762A /* IndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexView.h; sourceTree = "<group>"; };
+		249923621B9C7346000D762A /* IndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
+		249923641B9C7483000D762A /* IDInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDInfoViewController.h; sourceTree = "<group>"; };
+		249923651B9C7483000D762A /* IDInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDInfoViewController.m; sourceTree = "<group>"; };
+		249923671B9C7844000D762A /* CustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitleView.h; sourceTree = "<group>"; };
+		249923681B9C7844000D762A /* CustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTitleView.m; sourceTree = "<group>"; };
+		249923711B9C8344000D762A /* InfoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableView.h; sourceTree = "<group>"; };
+		249923721B9C8344000D762A /* InfoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableView.m; sourceTree = "<group>"; };
+		2499237C1B9DC812000D762A /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		2499237D1B9DC812000D762A /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		249923801B9DC8F8000D762A /* PersonalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalView.h; sourceTree = "<group>"; };
+		249923811B9DC8F8000D762A /* PersonalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,7 @@
 				241D28481B998750008EE6F9 /* AppDelegate.m */,
 				241D284A1B998750008EE6F9 /* ViewController.h */,
 				241D284B1B998751008EE6F9 /* ViewController.m */,
+				241D28A21B9A7B90008EE6F9 /* uitls */,
 				241D286A1B999294008EE6F9 /* customView */,
 				241D288A1B99974C008EE6F9 /* AddnewDemand */,
 				241D28891B999454008EE6F9 /* Retired-Define.h */,
@@ -168,7 +181,14 @@
 		241D286A1B999294008EE6F9 /* customView */ = {
 			isa = PBXGroup;
 			children = (
+				2499237F1B9DC8E9000D762A /* basicView */,
+				2499235F1B9C7346000D762A /* evaluatView */,
+				249923601B9C7346000D762A /* IndexView */,
 				241D286B1B999294008EE6F9 /* SegmentControl */,
+				249923671B9C7844000D762A /* CustomTitleView.h */,
+				249923681B9C7844000D762A /* CustomTitleView.m */,
+				249923711B9C8344000D762A /* InfoTableView.h */,
+				249923721B9C8344000D762A /* InfoTableView.m */,
 			);
 			path = customView;
 			sourceTree = "<group>";
@@ -222,18 +242,66 @@
 		241D288A1B99974C008EE6F9 /* AddnewDemand */ = {
 			isa = PBXGroup;
 			children = (
+				249923561B9C6745000D762A /* BasSicInfo */,
+				249923591B9C6745000D762A /* EvaluatInfo */,
 				241D288B1B9997DA008EE6F9 /* AddEvaluationViewController.h */,
 				241D288C1B9997DA008EE6F9 /* AddEvaluationViewController.m */,
-				241D288E1B999B4A008EE6F9 /* IndexViewController.h */,
-				241D288F1B999B4A008EE6F9 /* IndexViewController.m */,
-				241D28911B999B73008EE6F9 /* BasicInfoViewController.h */,
-				241D28921B999B73008EE6F9 /* BasicInfoViewController.m */,
-				241D28941B999BA9008EE6F9 /* EvaluatInfoViewController.h */,
-				241D28951B999BA9008EE6F9 /* EvaluatInfoViewController.m */,
 				241D28971B999BDE008EE6F9 /* SupplementaryModleViewController.h */,
 				241D28981B999BDE008EE6F9 /* SupplementaryModleViewController.m */,
 			);
 			path = AddnewDemand;
+			sourceTree = "<group>";
+		};
+		241D28A21B9A7B90008EE6F9 /* uitls */ = {
+			isa = PBXGroup;
+			children = (
+				241D28A31B9A7B90008EE6F9 /* UIViewExt.h */,
+				241D28A41B9A7B90008EE6F9 /* UIViewExt.m */,
+			);
+			path = uitls;
+			sourceTree = "<group>";
+		};
+		249923561B9C6745000D762A /* BasSicInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2499237C1B9DC812000D762A /* PersonalViewController.h */,
+				2499237D1B9DC812000D762A /* PersonalViewController.m */,
+				249923641B9C7483000D762A /* IDInfoViewController.h */,
+				249923651B9C7483000D762A /* IDInfoViewController.m */,
+			);
+			path = BasSicInfo;
+			sourceTree = "<group>";
+		};
+		249923591B9C6745000D762A /* EvaluatInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EvaluatInfo;
+			sourceTree = "<group>";
+		};
+		2499235F1B9C7346000D762A /* evaluatView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = evaluatView;
+			sourceTree = "<group>";
+		};
+		249923601B9C7346000D762A /* IndexView */ = {
+			isa = PBXGroup;
+			children = (
+				249923611B9C7346000D762A /* IndexView.h */,
+				249923621B9C7346000D762A /* IndexView.m */,
+			);
+			path = IndexView;
+			sourceTree = "<group>";
+		};
+		2499237F1B9DC8E9000D762A /* basicView */ = {
+			isa = PBXGroup;
+			children = (
+				249923801B9DC8F8000D762A /* PersonalView.h */,
+				249923811B9DC8F8000D762A /* PersonalView.m */,
+			);
+			path = basicView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +353,7 @@
 				TargetAttributes = {
 					241D283F1B998750008EE6F9 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = PSU3GG5CKU;
 					};
 					241D28581B998751008EE6F9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -340,18 +409,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249923691B9C7844000D762A /* CustomTitleView.m in Sources */,
+				241D28A51B9A7B90008EE6F9 /* UIViewExt.m in Sources */,
 				241D288D1B9997DA008EE6F9 /* AddEvaluationViewController.m in Sources */,
-				241D28931B999B73008EE6F9 /* BasicInfoViewController.m in Sources */,
 				241D28811B999294008EE6F9 /* README.md in Sources */,
+				249923661B9C7483000D762A /* IDInfoViewController.m in Sources */,
 				241D28801B999294008EE6F9 /* NSString+FontAwesome.m in Sources */,
 				241D28991B999BDE008EE6F9 /* SupplementaryModleViewController.m in Sources */,
 				241D284C1B998751008EE6F9 /* ViewController.m in Sources */,
+				249923731B9C8344000D762A /* InfoTableView.m in Sources */,
 				241D287F1B999294008EE6F9 /* FAImageView.m in Sources */,
+				249923631B9C7346000D762A /* IndexView.m in Sources */,
 				241D28831B999294008EE6F9 /* UIFont+FontAwesome.m in Sources */,
-				241D28901B999B4A008EE6F9 /* IndexViewController.m in Sources */,
 				241D28491B998750008EE6F9 /* AppDelegate.m in Sources */,
-				241D28961B999BA9008EE6F9 /* EvaluatInfoViewController.m in Sources */,
 				241D28461B998750008EE6F9 /* main.m in Sources */,
+				249923821B9DC8F8000D762A /* PersonalView.m in Sources */,
+				2499237E1B9DC812000D762A /* PersonalViewController.m in Sources */,
 				241D28871B999294008EE6F9 /* PPiFlatSegmentedControl.m in Sources */,
 				241D28861B999294008EE6F9 /* UIButton+PPiAwesome.m in Sources */,
 			);
@@ -412,7 +485,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trustmobi Software(Beijing) Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trustmobi Software(Beijing) Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -434,6 +508,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e9ac1e26-dcca-40a8-bb5b-eb5fbe6a4f1f";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -455,7 +530,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trustmobi Software(Beijing) Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trustmobi Software(Beijing) Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -470,6 +546,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e9ac1e26-dcca-40a8-bb5b-eb5fbe6a4f1f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -479,9 +556,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trustmobi Software(Beijing) Co., Ltd.";
 				INFOPLIST_FILE = RetiredLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e9ac1e26-dcca-40a8-bb5b-eb5fbe6a4f1f";
 			};
 			name = Debug;
 		};
@@ -489,9 +568,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trustmobi Software(Beijing) Co., Ltd.";
 				INFOPLIST_FILE = RetiredLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e9ac1e26-dcca-40a8-bb5b-eb5fbe6a4f1f";
 			};
 			name = Release;
 		};
@@ -548,6 +629,7 @@
 				241D28651B998751008EE6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		241D28661B998751008EE6F9 /* Build configuration list for PBXNativeTarget "RetiredLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +638,7 @@
 				241D28681B998751008EE6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

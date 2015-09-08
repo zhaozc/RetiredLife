@@ -5,7 +5,13 @@
 //  Created by Water on 15/9/4.
 //  Copyright (c) 2015年 Water. All rights reserved.
 //
-
+#import "IDInfoViewController.h"
+#import "IndexView.h"
+#import "InfoTableView.h"
+#import "PPiFlatSegmentedControl.h"
+#import "CustomTitleView.h"
+#import "PersonalViewController.h"
+#import "UIViewExt.h"
 #ifndef RetiredLife_Retired_Define_h
 #define RetiredLife_Retired_Define_h
 #define IMAGE(_name) [UIImage imageNamed:_name]

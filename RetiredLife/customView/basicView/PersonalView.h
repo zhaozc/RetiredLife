@@ -1,13 +1,13 @@
 //
-//  IndexViewController.h
+//  PersonalView.h
 //  RetiredLife
 //
-//  Created by Water on 15/9/4.
+//  Created by Water on 15/9/7.
 //  Copyright (c) 2015年 Water. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface IndexViewController : UIViewController
+@interface PersonalView : UIView
 
 @end

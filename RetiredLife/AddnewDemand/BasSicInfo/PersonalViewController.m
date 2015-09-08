@@ -1,23 +1,25 @@
 //
-//  EvaluatInfoViewController.m
+//  PersonalViewController.m
 //  RetiredLife
 //
-//  Created by Water on 15/9/4.
+//  Created by Water on 15/9/7.
 //  Copyright (c) 2015年 Water. All rights reserved.
 //
 
-#import "EvaluatInfoViewController.h"
-
-@interface EvaluatInfoViewController ()
+#import "PersonalViewController.h"
+#import "PersonalView.h"
+#import "Retired-Define.h"
+@interface PersonalViewController ()
 
 @end
 
-@implementation EvaluatInfoViewController
+@implementation PersonalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-      self.view.backgroundColor = [UIColor blueColor];
     // Do any additional setup after loading the view.
+    PersonalView  *m_personanlView = [[PersonalView alloc] initWithFrame:CGRectMake(0, TOOLBAR_HEIGHT+20, MAIN_SCREEN_WIDTH, MAIN_SCREEN_HEIGHT)];
+    [self.view addSubview:m_personanlView];
 }
 
 - (void)didReceiveMemoryWarning {
